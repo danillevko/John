@@ -1,0 +1,25 @@
+@import './components/footer';
+@import './components/header';
+@import './components/posts';
+@import './components/works';
+@import './utiles/placeholder';
+
+.container{
+    width: 354px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.view-all{
+    color: #00A8CC;
+    text-decoration: none;
+    display: none;
+    @extend %font;
+    font-weight: 400;
+    font-size: 16px;
+}
+.desktop{
+    display: none;
+}

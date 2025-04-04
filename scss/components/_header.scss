@@ -1,0 +1,43 @@
+.header {
+    text-align: center;
+}
+.header-photo {
+   display: block;
+   margin: 0 auto;
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+}
+.header-title {
+    text-align: center;
+    width: 312px;
+    height: 120px;
+    @extend %font;
+    margin: 0 auto;
+    margin-top: 73px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.header-paragraph {
+    margin: 21px 0px 27px 0px;
+    @extend %font;
+    text-align: center;
+    width: 328px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.header-btn {
+    margin: 0 auto;
+    background-color: #FF6464;
+    border: none;
+    align-items: center;
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
+}
+.header-btn:hover{
+    cursor: pointer;
+    background-color: #cf5252;
+}
