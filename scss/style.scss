@@ -1,8 +1,10 @@
-@import './components/footer';
-@import './components/header';
-@import './components/posts';
-@import './components/works';
-@import './utiles/placeholder';
+@import './components/home/footer';
+@import './components/home/header';
+@import './components/home/posts';
+@import './components/home/works';
+@import './components/home/blog/footerBlog';
+@import './components/home/blog/headerBlog';
+@import './components/home/blog/mainBlog';
 
 .container{
     width: 354px;
