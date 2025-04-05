@@ -61,3 +61,9 @@
     font-size: 16px;
     margin-bottom: 201px;
 }
+
+@media screen and (min-width: 1024px){
+    .works-paragraph{
+        margin-bottom: 0;
+    }
+}

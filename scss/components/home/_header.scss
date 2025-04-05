@@ -1,61 +1,94 @@
 .header {
-    text-align: center;
+  text-align: center;
 }
-.header-list{
-    display: flex;
-    gap: 5px;
-    justify-content: flex-end;
-    list-style: none;
-    margin-bottom: 33px;
+.header-list {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  list-style: none;
+  margin-bottom: 33px;
 }
 .header-item {
-    width: 71px;
-    height: 35px;
-    @extend %font;
-    font-weight: 500;
-    font-size: 13px;
+  width: 71px;
+  height: 35px;
+  @extend %font;
+  font-weight: 500;
+  font-size: 13px;
 }
 .header-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .header-photo {
-   display: block;
-   margin: 0 auto;
-   width: 170px;
-   height: 170px;
-   border-radius: 50%;
+  display: block;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
 }
 .header-title {
-    text-align: center;
-    width: 312px;
-    height: 120px;
-    @extend %font;
-    margin: 0 auto;
-    margin-top: 73px;
-    font-weight: 700;
-    font-size: 32px;
+  text-align: center;
+  width: 312px;
+  height: 120px;
+  @extend %font;
+  margin: 0 auto;
+  margin-top: 73px;
+  font-weight: 700;
+  font-size: 32px;
 }
 .header-paragraph {
-    margin: 21px 0px 27px 0px;
-    @extend %font;
-    text-align: center;
-    width: 328px;
-    height: 96px;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0 auto;
+  margin: 21px 0px 27px 0px;
+  @extend %font;
+  text-align: center;
+  width: 328px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto;
 }
 .header-btn {
-    margin: 0 auto;
-    background-color: #FF6464;
-    border: none;
-    align-items: center;
-    padding: 12px 20px;
-    color: white;
-    text-align: center;
+  margin: 0 auto;
+  background-color: #ff6464;
+  border: none;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  text-align: center;
 }
-.header-btn:hover{
-    cursor: pointer;
-    background-color: #cf5252;
+.header-btn:hover {
+  cursor: pointer;
+  background-color: #cf5252;
+}
+
+@media screen and (min-width: 1024px) {
+  .john-section {
+    display: flex;
+    flex-direction: row-reverse;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 140px;
+    justify-content: space-between;
+  }
+  .header-title {
+    margin-top: 0;
+  }
+  .header-photo{
+    width: 243px;
+    height: 243px;
+  }
+  .john-wrapper{
+    width: 506px;
+    text-align: left;
+    line-height: 60px;
+  }
+  .header-title{
+    text-align: left;
+    margin: 0;
+    
+    width: 506px;
+  }
+  .header-paragraph{
+    text-align: left;
+    margin: 0;
+    width: 506px;
+  }
 }
