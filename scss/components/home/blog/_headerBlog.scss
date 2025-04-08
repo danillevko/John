@@ -1,18 +1,18 @@
-.header-list{
+.header-list-blog{
     display: flex;
     gap: 5px;
     justify-content: flex-end;
     list-style: none;
     margin-bottom: 33px;
 }
-.header-item {
+.header-item-blog {
     width: 71px;
     height: 35px;
     @extend %font;
     font-weight: 500;
     font-size: 13px;
 }
-.header-link {
+.header-link-blog {
     text-decoration: none;
     color: black;
 }

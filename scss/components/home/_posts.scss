@@ -39,17 +39,17 @@
   vertical-align: center;
   padding-top: 10px;
 }
-.posts-wrapper {
-  display: flex;
-  gap: 28px;
-  margin-top: 2px;
-  align-items: center;
-}
 .devider {
   width: 1px;
   height: 21px;
   background-color: #000000;
   border: 1px;
+}
+.posts-wrapper {
+  display: flex;
+  gap: 28px;
+  margin-top: 2px;
+  align-items: center;
 }
 .posts-paragraph {
   width: 314px;
