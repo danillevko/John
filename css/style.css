@@ -124,7 +124,6 @@
 
 .posts-title {
   width: 106px;
-  height: 60px;
   font-weight: 400;
   font-size: 18px;
   -webkit-box-align: center;
@@ -132,6 +131,8 @@
           align-items: center;
   text-align: center;
   margin: 0 auto;
+  line-height: 60px;
+  padding: 30px 0px;
 }
 
 .posts-slogan {

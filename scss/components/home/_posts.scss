@@ -5,13 +5,14 @@
 }
 .posts-title {
   width: 106px;
-  height: 60px;
   @extend %font;
   font-weight: 400;
   font-size: 18px;
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  line-height: 60px;
+  padding: 30px 0px;
 }
 .posts-slogan {
   margin-top: 11px;
