@@ -30,6 +30,9 @@
   @extend %font;
   font-weight: 400;
   font-size: 16px;
+  align-items: center;
+  vertical-align: center;
+  padding-top: 25px;
 }
 @media screen and (min-width: 1024px) {
   .view-all {
@@ -46,8 +49,8 @@
 .desktop {
   display: none;
 }
-@media screen and (min-width: 1024px){
-    .desktop{
-        display: block;
-    }
+@media screen and (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
 }

@@ -38,6 +38,7 @@
   width: 170px;
   height: 170px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .header-title {
@@ -75,6 +76,13 @@
 .header-btn:hover {
   cursor: pointer;
   background-color: #cf5252;
+}
+
+.john-wrapper {
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -117,7 +125,7 @@
   }
 }
 .section-posts {
-  background-color: #d0f1fc;
+  background-color: #EDF7FA;
   margin: 0 15px;
   margin-top: 58px;
 }
@@ -437,6 +445,11 @@
   display: none;
   font-weight: 400;
   font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: center;
+  padding-top: 25px;
 }
 
 @media screen and (min-width: 1024px) {
