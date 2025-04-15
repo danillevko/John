@@ -6,6 +6,9 @@
 @import "./components/home/blog/headerBlog";
 @import "./components/home/blog/mainBlog";
 @import "./utiles/placeholder";
+@import "./components/home/work/footerWork.scss";
+@import "./components/home/work/headerWork.scss";
+@import "./components/home/work/mainWork.scss";
 
 .container {
   width: 339px;
@@ -53,4 +56,8 @@
   .desktop {
     display: block;
   }
+}
+
+.header-item:hover {
+  color: #ff6464;
 }

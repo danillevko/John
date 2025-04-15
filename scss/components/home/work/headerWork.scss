@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+.header-list {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  list-style: none;
+  margin-bottom: 33px;
+}
+.header-item {
+  width: 71px;
+  height: 35px;
+  @extend %font;
+  font-weight: 500;
+  font-size: 13px;
+}
+.header-link {
+  text-decoration: none;
+  color: black;
+}
