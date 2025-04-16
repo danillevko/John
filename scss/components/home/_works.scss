@@ -1,69 +1,102 @@
 .works {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 .works-title {
-    width: 124px;
-    height: 15px;
-    align-items: center;
-    margin: 0 auto;
-    @extend %font;
-    font-weight: 400;
-    font-size: 18px;
-    margin: 41px auto;
+  width: 124px;
+  height: 15px;
+  align-items: center;
+  margin: 0 auto;
+  @extend %font;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 41px auto;
 }
 .works-photo {
-    width: 339px;
-    height: 230px;
-    margin-bottom: 17px;
+  width: 246px;
+  height: 180px;
+  margin-bottom: 17px;
 }
 .works-slogan {
-    @extend %font;
-    font-weight: 700;
-    font-size: 24px;
-    width: 244px;
-    height: 30px;
-    margin-bottom: 16px;
+  @extend %font;
+  font-weight: 700;
+  font-size: 30px;
+  width: 305px;
+  height: 44px;
+  margin-bottom: 16px;
 }
 .works-date {
-    font-family: "Heebo", sans-serif;
-    color: white;
-    font-weight: 900;
-    font-size: 16px;
-    border-radius: 16px;
-    width: 62px;
-    height: 25px;
-    background-color: #142850;
-    text-align: center;
-    vertical-align: center;
-    border: none;
+  font-family: "Heebo", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  text-align: center;
+  vertical-align: center;
+  border: none;
 }
-.works-wrapper{
-    display: flex;
-    gap: 22px;
-    text-align: center;
-    vertical-align: center;
-    margin-top: 16px;
-    margin-bottom: 25px;
-}
-.work-span {
-    font-family: "Heebo", sans-serif;
-    color: #8695A4;
-    font-weight: 400;
-    font-size: 16px;
-    width: 78px;
-    height: 24px;
-}
-.works-paragraph {
-    width: 344px;
-    height: 96px;
-    @extend %font;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 201px;
+.works-wrapper {
+  display: flex;
+  gap: 22px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 16px;
+  margin-bottom: 25px;
 }
 
-@media screen and (min-width: 1024px){
-    .works-paragraph{
-        margin-bottom: 0;
-    }
+.works-text-wrapper {
+  display: block;
+  gap: 18px;
+  margin-bottom: 50px;
+}
+
+.work-span {
+  font-family: "Heebo", sans-serif;
+  color: #8695a4;
+  font-weight: 400;
+  font-size: 20px;
+  width: 78px;
+  height: 24px;
+}
+.works-paragraph {
+  width: 334px;
+  height: 96px;
+  @extend %font;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 29px;
+}
+
+@media screen and (min-width: 1024px) {
+  .works-paragraph {
+    margin-bottom: 0;
+    width: 334px;
+    height: 96px;
+  }
+
+  .works-photo {
+    width: 339px;
+    height: 230px;
+  }
+
+  .works-slogan {
+    font-size: 24px;
+  }
+
+  .works-date,
+  .work-span {
+    font-size: 16px;
+  }
+
+  .works-text-wrapper {
+    display: flex;
+    gap: 18px;
+  }
+
+  .works-paragraph {
+    width: 494px;
+    height: 96px;
+  }
 }
