@@ -44,22 +44,25 @@
   border: none;
 }
 
-.work-main h6{
-  color: #8695A4;
+.work-main h6 {
+  color: #8695a4;
   width: 97px;
   height: 29px;
   font-weight: 400;
   font-size: 20px;
 }
 
-.work-item-text p{
+.work-item-text p {
   width: 418px;
   height: 93px;
   font-weight: 400;
   font-size: 16px;
 }
 
-.desktop-work{
-  display: block;
+.desktop-work {
+  display: none;
 }
 
+.work-item-text::nth-child(2) {
+  display: none;
+}

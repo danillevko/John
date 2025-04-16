@@ -49,7 +49,7 @@
 }
 
 .work-main h6 {
-  color: #8695A4;
+  color: #8695a4;
   width: 97px;
   height: 29px;
   font-weight: 400;
@@ -64,5 +64,10 @@
 }
 
 .desktop-work {
-  display: block;
+  display: none;
+}
+
+.work-item-text::nth-child(2) {
+  display: none;
+  background-color: red;
 }/*# sourceMappingURL=mainWork.css.map */
