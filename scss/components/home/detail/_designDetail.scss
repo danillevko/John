@@ -1,0 +1,79 @@
+.designing-section {
+  margin-bottom: 54px;
+  margin-top: 78px;
+}
+
+.designing-section h1 {
+  width: 506px;
+  height: 100px;
+  @extend %font;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.designing-wrapper {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 23px;
+}
+
+.designing-wrapper div {
+  width: 44px;
+  height: 15px;
+  @extend %font;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 3px;
+  background-color: #ff7c7c;
+  border: none;
+  border-radius: 16px;
+  color: white;
+}
+
+.designing-wrapper span {
+  width: 364px;
+  height: 34px;
+  @extend %font;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.designing-section p {
+  width: 681px;
+  height: 44px;
+  @extend %font;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 46px;
+}
+
+.designing-section img {
+  width: 680px;
+  height: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+  .designing-section h1 {
+    width: 339px;
+    height: 80px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .designing-wrapper span {
+    width: 262px;
+    height: 52px;
+    font-size: 18px;
+  }
+
+  .designing-section p {
+    width: 339px;
+    height: 96px;
+  }
+
+  .designing-section img {
+    width: 339px;
+    height: 256px;
+  }
+}
